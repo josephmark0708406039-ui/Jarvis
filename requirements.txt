@@ -1,0 +1,15 @@
+SpeechRecognition==3.10.4
+PyAudio==0.2.14
+google-genai
+requests==2.32.3
+python-dotenv==1.0.1
+playsound==1.2.2
+pygetwindow==0.0.9
+pywin32==308
+pyttsx3==2.90
+
+# Only needed if you set the matching key in .env — install on demand:
+#   pip install openai        (for OPENAI_API_KEY fallback)
+#   pip install anthropic     (for ANTHROPIC_API_KEY fallback)
+# DeepSeek reuses the `openai` package (its API is OpenAI-compatible),
+# so `pip install openai` covers DEEPSEEK_API_KEY too.
